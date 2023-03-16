@@ -8,9 +8,30 @@ async function main() {
     prisma.user.create({
         data: {
             name: 'Alice',
-            email: 'alice@prisma.io',
+            email: 'alice2@prisma.io',
             posts: {
-                create: { title: 'Hello World' },
+                create: { title: 'Hello World', },
+            },
+            profile: {
+                create: { bio: 'I like turtles' },
+            },
+        }
+    }).then(res => {
+        console.log(res);
+    });
+
+    prisma.user.create({
+        data: {
+            name: 'Bob',
+            email: 'bob2@prisma.io',
+            posts: {
+                createMany: {
+                    data: [
+                        { title: "Bobs post 1" },
+                        { title: "Bobs post 2" },
+                        { title: "Bobs post 3" },
+                    ]
+                }
             },
             profile: {
                 create: { bio: 'I like turtles' },

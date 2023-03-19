@@ -1,4 +1,4 @@
-# Azure SQL + Prisma Integration Example
+# Azure SQL + Prisma Example
 This is a sample project for using Azure SQL and Prisma together. It was created by following the Prisma [Getting Started](https://www.prisma.io/docs/getting-started/quickstart) documentation. 
 
 ## Setup ⚙️

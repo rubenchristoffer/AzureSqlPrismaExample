@@ -1,5 +1,5 @@
 {
-  "name": "azuresandbox",
+  "name": "azuresqlprisma",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rubenchristoffer/AzureSandbox.git"
+    "url": "git+https://github.com/rubenchristoffer/AzureSqlPrismaExample.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rubenchristoffer/AzureSandbox/issues"
+    "url": "https://github.com/rubenchristoffer/AzureSqlPrismaExample/issues"
   },
-  "homepage": "https://github.com/rubenchristoffer/AzureSandbox#readme",
+  "homepage": "https://github.com/rubenchristoffer/AzureSqlPrismaExample#readme",
   "dependencies": {
     "@prisma/client": "^4.11.0",
     "@types/node": "^18.15.3",

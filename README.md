@@ -3,7 +3,7 @@ This is a sample project for using Azure SQL and Prisma together. It was created
 
 ## Setup ⚙️
 - Start by running `npm install` to install all the dependencies
-- Create a `.env` file to store the Prisma environment variables. This file is excluded from source control to ensure confidentiality of the credentials. 
+- Create a `.env` file (in the root of the project) to store the Prisma environment variables. This file is excluded from source control to ensure confidentiality of the credentials. 
 
 Example `.env` template for Azure SQL development database:
 ```
